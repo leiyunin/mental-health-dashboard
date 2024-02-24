@@ -1,0 +1,115 @@
+a {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+
+.d3-tip {
+  font-family: 'Inter','Roboto','Clash Display', "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 20px;
+  pointer-events: none !important;
+  color: #203d5d;
+  box-shadow: 0 4px 20px 4px rgba(0, 20, 60, 0.1),
+    0 4px 80px -8px rgba(0, 20, 60, 0.2);
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #fff;
+  position: absolute;
+  pointer-events: none;
+}
+
+.d3-tip.n:after {
+  content: "▼";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.d3-tip.e:after {
+  content: "◀";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px;
+}
+
+.d3-tip.s:after {
+  content: "▲";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center;
+}
+
+.d3-tip.w:after {
+  content: "▶";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%;
+}
+
+.popup-paragraph {
+  margin: 2px 0; 
+  padding: 2px; 
+}
+
+/* 样式与help按钮相似的reset按钮 */
+.custom-button {
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.custom-button:hover {
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #0056b3;
+}
+
+.custom-row {
+  text-align: left; 
+}
+
+#title {
+  font-family: 'Inter','Roboto','Clash Display', "Helvetica", "Arial", sans-serif;
+  text-align: center; 
+  font-size: 20px;
+  margin-bottom: 10px; 
+  margin-top: 30px; 
+  font-weight:normal; 
+}
+
+circle:hover {
+  cursor: pointer;
+}
+
+#help-info {
+  overflow-y: auto; /* 允许垂直滚动 */
+}
+
+.x-axis-label {
+  transform: rotate(-45deg); /* 旋转角度为45度，可以根据需要调整 */
+  text-anchor: end; /* 将文本锚点设置为标签的尾部，以便对齐 */
+  font-size: 10px; /* 设置字体大小，根据需要调整 */
+}
+
+
+
+

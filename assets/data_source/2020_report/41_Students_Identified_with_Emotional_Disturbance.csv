@@ -1,0 +1,53 @@
+,rank,state,rate,number
+1,1,Vermont,27.72,2071
+2,2,Minnesota,19.76,15666
+3,3,Massachusetts,18.81,16338
+4,4,Wisconsin,16.18,12217
+5,5,Pennsylvania,15.50,24746
+6,6,Maine,13.73,2243
+7,7,Indiana,13.42,12798
+8,8,Iowa,12.98,5741
+9,9,District of Columbia,12.78,840
+10,10,Rhode Island,12.49,1618
+11,11,New Hampshire,12.32,2039
+12,12,Connecticut,11.51,5526
+13,13,North Dakota,10.86,1066
+14,14,Illinois,10.17,18373
+15,15,Ohio,9.80,15208
+16,16,South Dakota,9.76,1184
+17,17,Oregon,9.54,5122
+18,18,Nebraska,9.50,2664
+19,19,New York,9.49,23429
+20,20,Virginia,8.39,9752
+21,21,Delaware,8.32,1037
+22,22,Michigan,8.26,11273
+23,23,Missouri,8.25,6738
+24,24,Mississippi,7.90,3487
+25,25,Maryland,7.69,6085
+26,26,Kentucky,7.35,4468
+27,27,Arizona,7.31,7551
+28,28,Colorado,6.90,5578
+29,29,Oklahoma,6.78,4073
+30,30,Georgia,6.70,10653
+31,31,Wyoming,6.63,570
+32,32,Montana,6.35,848
+33,33,New Mexico,6.20,1889
+34,34,New Jersey,6.12,7690
+35,35,Texas,6.09,28884
+36,36,Alaska,5.93,707
+37,37,Hawaii,5.92,979
+38,38,Florida,5.84,14933
+39,39,Kansas,5.48,2409
+40,40,Washington,5.11,5142
+41,41,Idaho,4.95,1354
+42,42,West Virginia,4.94,1180
+43,43,Nevada,4.45,1931
+44,44,California,4.36,24818
+45,45,North Carolina,3.81,5394
+46,46,Tennessee,3.72,3342
+47,47,South Carolina,3.20,2208
+48,48,Utah,3.17,1889
+49,49,Louisiana,2.79,1773
+50,50,Arkansas,2.24,988
+51,51,Alabama,2.02,1365
+52,,National,7.33,"333,346"

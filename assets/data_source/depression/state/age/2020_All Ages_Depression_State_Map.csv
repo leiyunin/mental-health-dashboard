@@ -1,0 +1,52 @@
+,Age Chart-alias,State-alias,SUM(Positive Severe Depression)-alias,SUM(Total Depression Responses)-alias,Latitude (generated)-value,Latitude (generated)-alias,Longitude (generated)-value,Longitude (generated)-alias,ATTR(2021 Population Estimate)-alias,ATTR(Percentage Suffix Label %)-alias,ATTR(Tooltip Title Show)-alias,AGG(% at Risk)-alias,AGG(# per 100K)-alias,AGG(Formatted Show # or Percent Positive Age)-alias,AGG(Show # or Percent)-alias
+0,True,Wyoming,258,926,43,43.00,-107.5,-107.50,578803,%null%,Breakdown by County (All Years),27.86,44.574751685806746,44.6,0.94
+1,True,Wisconsin,2094,6557,44.5,44.50,-90,-90.00,5895908,%null%,Breakdown by County (All Years),31.94,35.51615798618296,35.5,0.46
+2,True,West Virginia,712,1898,38.63,38.63,-80.73,-80.73,1782959,%null%,Breakdown by County (All Years),37.51,39.93361597210031,39.9,0.86
+3,True,Washington,3080,9578,47.5,47.50,-120.5,-120.50,7738692,%null%,Breakdown by County (All Years),32.16,39.80000754649494,39.8,0.84
+4,True,Virginia,3198,10259,37.77,37.77,-78.24,-78.24,8642274,%null%,Breakdown by County (All Years),31.17,37.00414960229217,37.0,0.62
+5,True,Vermont,199,698,44.1584,44.16,-72.7678,-72.77,645570,%null%,Breakdown by County (All Years),28.51,30.82547206344781,30.8,0.12
+6,True,Utah,1489,5006,39.25,39.25,-111.75,-111.75,3337975,%null%,Breakdown by County (All Years),29.74,44.607883522195344,44.6,0.96
+7,True,Texas,10887,32602,31.25,31.25,-99.25,-99.25,29527941,%null%,Breakdown by County (All Years),33.39,36.870163077066564,36.9,0.6
+8,True,Tennessee,2642,8165,35.75,35.75,-86.25,-86.25,6975218,%null%,Breakdown by County (All Years),32.36,37.87695237625548,37.9,0.72
+9,True,South Dakota,286,981,44.5,44.50,-100.25,-100.25,895376,%null%,Breakdown by County (All Years),29.15,31.94188810064152,31.9,0.18
+10,True,South Carolina,1704,4937,34,34.00,-81,-81.00,5190705,%null%,Breakdown by County (All Years),34.51,32.82791065953469,32.8,0.28
+11,True,Rhode Island,320,1025,41.4966,41.50,-71.4757,-71.48,1095610,%null%,Breakdown by County (All Years),31.22,29.207473462272155,29.2,0.06
+12,True,Pennsylvania,4298,13902,40.86,40.86,-77.9,-77.90,12964056,%null%,Breakdown by County (All Years),30.92,33.15320452179472,33.2,0.32
+13,True,Oregon,1622,4873,44,44.00,-120.5,-120.50,4246155,%null%,Breakdown by County (All Years),33.29,38.19926498208379,38.2,0.74
+14,True,Oklahoma,1493,4235,35.5,35.50,-97.5,-97.50,3986639,%null%,Breakdown by County (All Years),35.25,37.45009267204781,37.5,0.7
+15,True,Ohio,4335,12890,40.25,40.25,-83,-83.00,11780017,%null%,Breakdown by County (All Years),33.63,36.79960733503186,36.8,0.58
+16,True,North Dakota,282,880,47.5,47.50,-100,-100.00,774948,%null%,Breakdown by County (All Years),32.05,36.38953839483423,36.4,0.52
+17,True,North Carolina,3468,10613,35.5,35.50,-80,-80.00,10551162,%null%,Breakdown by County (All Years),32.68,32.86841771550849,32.9,0.3
+18,True,New York,6180,20710,43,43.00,-75.49,-75.49,19835913,%null%,Breakdown by County (All Years),29.84,31.155611541550922,31.2,0.14
+19,True,New Mexico,685,2028,34.5,34.50,-106,-106.00,2115877,%null%,Breakdown by County (All Years),33.78,32.37428262606947,32.4,0.26
+20,True,New Jersey,2836,9789,40.16,40.16,-74.49,-74.49,9267130,%null%,Breakdown by County (All Years),28.97,30.60278640744222,30.6,0.1
+21,True,New Hampshire,485,1512,43.66,43.66,-71.49,-71.49,1388992,%null%,Breakdown by County (All Years),32.08,34.91740773165,34.9,0.38
+22,True,Nevada,1329,3677,39.25,39.25,-116.75,-116.75,3143991,%null%,Breakdown by County (All Years),36.14,42.27111337150774,42.3,0.9
+23,True,Nebraska,710,2317,41.5,41.50,-99.75,-99.75,1963692,%null%,Breakdown by County (All Years),30.64,36.15638297655641,36.2,0.5
+24,True,Montana,410,1203,47,47.00,-109.75,-109.75,1104271,%null%,Breakdown by County (All Years),34.08,37.12856717236983,37.1,0.66
+25,True,Missouri,2162,6616,38.25,38.25,-92.5,-92.50,6168187,%null%,Breakdown by County (All Years),32.68,35.050818011840434,35.1,0.4
+26,True,Mississippi,856,2361,33.503,33.50,-89.8071,-89.81,2949965,%null%,Breakdown by County (All Years),36.26,29.01729342551522,29.0,0.04
+27,True,Minnesota,2019,6850,46.25,46.25,-94.25,-94.25,5707390,%null%,Breakdown by County (All Years),29.47,35.37518900933702,35.4,0.44
+28,True,Michigan,3614,11135,43.1045,43.10,-84.6165,-84.62,10050811,%null%,Breakdown by County (All Years),32.46,35.95729737630128,36.0,0.48
+29,True,Massachusetts,2123,7782,42.3616,42.36,-72.1839,-72.18,6984723,%null%,Breakdown by County (All Years),27.28,30.394906140157595,30.4,0.08
+30,True,Maryland,2090,6971,39.4444,39.44,-77.0834,-77.08,6165129,%null%,Breakdown by County (All Years),29.98,33.900344988726104,33.9,0.34
+31,True,Maine,440,1413,45.5,45.50,-69.24,-69.24,1372247,%null%,Breakdown by County (All Years),31.14,32.06419835496088,32.1,0.24
+32,True,Louisiana,1224,3718,30.6935,30.69,-92.241,-92.24,4624047,%null%,Breakdown by County (All Years),32.92,26.470319181444307,26.5,0
+33,True,Kentucky,1726,5099,37.79,37.79,-84.87,-84.87,4509394,%null%,Breakdown by County (All Years),33.85,38.27565300348561,38.3,0.78
+34,True,Kansas,1035,3200,38.5,38.50,-98.5,-98.50,2934582,%null%,Breakdown by County (All Years),32.34,35.269077504053385,35.3,0.42
+35,True,Iowa,1182,3529,42,42.00,-93.5,-93.50,3193079,%null%,Breakdown by County (All Years),33.49,37.01756204591243,37.0,0.64
+36,True,Indiana,3178,9386,40,40.00,-86.25,-86.25,6805985,%null%,Breakdown by County (All Years),33.86,46.694196358058385,46.7,0.98
+37,True,Illinois,4635,14642,40,40.00,-89.25,-89.25,12671469,%null%,Breakdown by County (All Years),31.66,36.57823729829588,36.6,0.54
+38,True,Idaho,656,1988,44.0739,44.07,-114.542,-114.54,1900923,%null%,Breakdown by County (All Years),33.00,34.50955141265585,34.5,0.36
+39,True,Hawaii,551,1769,20.79,20.79,-156.34,-156.34,1441553,%null%,Breakdown by County (All Years),31.15,38.222666804481,38.2,0.76
+40,True,Georgia,3954,11958,32.1598,32.16,-83.4715,-83.47,10799566,%null%,Breakdown by County (All Years),33.07,36.612582394514746,36.6,0.56
+41,True,Florida,6834,20999,28.42,28.42,-81.55,-81.55,21781128,%null%,Breakdown by County (All Years),32.54,31.37578549650872,31.4,0.16
+42,True,District of Columbia,186,932,38.91,38.91,-77,-77.00,670050,%null%,Breakdown by County (All Years),19.96,27.759122453548244,27.8,0.02
+43,True,Delaware,321,1124,38.6716,38.67,-75.4165,-75.42,1003384,%null%,Breakdown by County (All Years),28.56,31.991739952002423,32.0,0.22
+44,True,Connecticut,1153,3860,41.6227,41.62,-72.7028,-72.70,3605597,%null%,Breakdown by County (All Years),29.87,31.978060776065657,32.0,0.2
+45,True,Colorado,2298,7305,39,39.00,-105.5,-105.50,5812069,%null%,Breakdown by County (All Years),31.46,39.53841566574657,39.5,0.82
+46,True,California,14635,48112,37.25,37.25,-119.75,-119.75,39237836,%null%,Breakdown by County (All Years),30.42,37.29818331469656,37.3,0.68
+47,True,Arkansas,1181,3240,34.75,34.75,-92.5,-92.50,3025891,%null%,Breakdown by County (All Years),36.45,39.02982625613414,39.0,0.8
+48,True,Arizona,3194,9617,34.5,34.50,-111.5,-111.50,7276316,%null%,Breakdown by County (All Years),33.21,43.89583959795039,43.9,0.92
+49,True,Alaska,519,1633,64,64.00,-150,-150.00,732673,%null%,Breakdown by County (All Years),31.78,70.83651233224099,70.8,1
+50,True,Alabama,2114,6268,32.75,32.75,-86.75,-86.75,5039877,%null%,Breakdown by County (All Years),33.73,41.94546811360674,41.9,0.88

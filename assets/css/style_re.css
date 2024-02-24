@@ -1,0 +1,54 @@
+body {
+  font-family: 'Inter','Roboto','Clash Display', "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+.state-selector-row, .county-selector-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.state-selector {
+  width: 45%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.county-selector {
+  width: 45%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*#resetButton {
+  padding: 5px 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}*/
+
+#tooltip {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: black;
+  max-width: 200px;
+}
+
+#bar-chart {
+  /*overflow: auto; /* Enable vertical scrolling */
+  width: 100%; /* Set width */
+  height: 400px; /* Adjust height as needed */
+}
+

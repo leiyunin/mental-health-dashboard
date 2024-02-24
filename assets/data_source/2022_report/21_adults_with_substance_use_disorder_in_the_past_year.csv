@@ -1,0 +1,53 @@
+,rank,state,percent,number
+0,1,Florida,5.98,1007000
+1,2,West Virginia,6.29,89000
+2,3,Texas,6.48,1360000
+3,4,Utah,6.56,146000
+4,5,Georgia,6.6,519000
+5,6,New Jersey,6.71,459000
+6,7,South Carolina,6.73,263000
+7,8,Maryland,7.01,323000
+8,9,Arizona,7.11,390000
+9,10,Mississippi,7.15,158000
+10,11,Arkansas,7.16,162000
+11,12,Tennessee,7.22,375000
+12,13,North Carolina,7.26,576000
+13,14,Kansas,7.29,157000
+14,15,Pennsylvania,7.31,728000
+15,16,Virginia,7.33,473000
+16,17,New York,7.43,1131000
+17,18,Michigan,7.56,585000
+18,19,Minnesota,7.62,325000
+19,20,Idaho,7.67,100000
+20,21,South Dakota,7.69,50000
+21,22,New Mexico,7.7,122000
+22,23,Missouri,7.71,358000
+23,24,Nebraska,7.71,110000
+24,25,Wyoming,7.84,34000
+25,26,Kentucky,7.87,266000
+26,27,Alabama,7.89,294000
+27,28,Ohio,7.94,709000
+28,29,Wisconsin,7.98,358000
+29,30,Oklahoma,8.01,234000
+30,31,Illinois,8.02,777000
+31,32,Iowa,8.05,192000
+32,33,Louisiana,8.06,279000
+33,34,Indiana,8.42,425000
+34,35,Connecticut,8.43,235000
+35,36,Hawaii,8.45,90000
+36,37,Washington,8.62,500000
+37,38,Delaware,8.79,66000
+38,39,Massachusetts,8.83,483000
+39,40,New Hampshire,8.84,96000
+40,41,North Dakota,8.88,50000
+41,42,Maine,8.89,96000
+42,43,Rhode Island,8.95,75000
+43,44,California,9.23,2778000
+44,45,Nevada,9.32,217000
+45,46,Oregon,9.78,322000
+46,47,Montana,10.04,83000
+47,48,Vermont,10.1,51000
+48,49,Alaska,10.23,54000
+49,50,Colorado,11.75,514000
+50,51,District of Columbia,12.3,70000
+51,,National,7.74,19314000

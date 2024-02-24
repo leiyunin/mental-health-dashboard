@@ -1,0 +1,410 @@
+[
+    {
+        "state": "Wyoming",
+        "depression": 32.65359716518401,
+        "suicide": 15.376561628049611,
+        "ptsd": 16.93149482639171,
+        "psychosis": 31.78974538832729,
+        "prevalence_percent": 22.088968334821196
+    },
+    {
+        "state": "Wisconsin",
+        "depression": 27.95158947527675,
+        "suicide": 15.31570709719351,
+        "ptsd": 11.88960207655886,
+        "psychosis": 31.92044380611095,
+        "prevalence_percent": 19.811067001501094
+    },
+    {
+        "state": "West Virginia",
+        "depression": 32.866712021981435,
+        "suicide": 20.07898106462348,
+        "ptsd": 18.39638488602374,
+        "psychosis": 32.30584662911486,
+        "prevalence_percent": 23.961811793461656
+    },
+    {
+        "state": "Washington",
+        "depression": 31.374811143795363,
+        "suicide": 16.25597710827618,
+        "ptsd": 13.981690962762183,
+        "psychosis": 35.199746933977984,
+        "prevalence_percent": 22.98404028669936
+    },
+    {
+        "state": "Virginia",
+        "depression": 29.911109043754,
+        "suicide": 14.243936260294456,
+        "ptsd": 12.774415622554896,
+        "psychosis": 32.76915311872778,
+        "prevalence_percent": 18.312507385573035
+    },
+    {
+        "state": "Vermont",
+        "depression": 28.65684588812987,
+        "suicide": 16.729401923881223,
+        "ptsd": 17.039205663212357,
+        "psychosis": 32.37449076010348,
+        "prevalence_percent": 21.78856378296539
+    },
+    {
+        "state": "Utah",
+        "depression": 38.25672750694658,
+        "suicide": 17.945011571386843,
+        "ptsd": 14.4698507328545,
+        "psychosis": 42.27113744111325,
+        "prevalence_percent": 25.73451634331792
+    },
+    {
+        "state": "Texas",
+        "depression": 29.09786361331459,
+        "suicide": 13.685342977351516,
+        "ptsd": 10.593356306150842,
+        "psychosis": 31.74281606699228,
+        "prevalence_percent": 16.89768540327915
+    },
+    {
+        "state": "Tennessee",
+        "depression": 32.3287386860167,
+        "suicide": 16.91703399090896,
+        "ptsd": 14.637535342981394,
+        "psychosis": 31.941654009953524,
+        "prevalence_percent": 18.891208628841603
+    },
+    {
+        "state": "South Dakota",
+        "depression": 34.845696109790744,
+        "suicide": 16.64105359089366,
+        "ptsd": 16.976108361180106,
+        "psychosis": 37.41444934865353,
+        "prevalence_percent": 17.976501753134844
+    },
+    {
+        "state": "South Carolina",
+        "depression": 28.454708946087287,
+        "suicide": 15.681877509895092,
+        "ptsd": 12.098549233678275,
+        "psychosis": 30.0922514379068,
+        "prevalence_percent": 18.93770052008241
+    },
+    {
+        "state": "Rhode Island",
+        "depression": 23.639798833526527,
+        "suicide": 9.401155520668851,
+        "ptsd": 8.397148620403245,
+        "psychosis": 26.743092888892942,
+        "prevalence_percent": 21.7414200398142
+    },
+    {
+        "state": "Pennsylvania",
+        "depression": 26.102941857085465,
+        "suicide": 13.768839011494553,
+        "ptsd": 11.917566539360829,
+        "psychosis": 28.70243695337324,
+        "prevalence_percent": 19.130215156113053
+    },
+    {
+        "state": "Oregon",
+        "depression": 33.98368641747651,
+        "suicide": 19.523545419326425,
+        "ptsd": 13.9891266333895,
+        "psychosis": 37.65759846260912,
+        "prevalence_percent": 23.328170412276194
+    },
+    {
+        "state": "Oklahoma",
+        "depression": 32.90992738494757,
+        "suicide": 20.067028893260712,
+        "ptsd": 18.160661148400948,
+        "psychosis": 33.78785989902772,
+        "prevalence_percent": 21.99686746987952
+    },
+    {
+        "state": "Ohio",
+        "depression": 31.11200943088622,
+        "suicide": 16.714746676511588,
+        "ptsd": 14.235972664555575,
+        "psychosis": 34.66039140690544,
+        "prevalence_percent": 22.8333473540194
+    },
+    {
+        "state": "North Dakota",
+        "depression": 30.711738077909743,
+        "suicide": 18.323810113710856,
+        "ptsd": 14.968746290073655,
+        "psychosis": 32.38926998972834,
+        "prevalence_percent": 20.034276091458697
+    },
+    {
+        "state": "North Carolina",
+        "depression": 26.338331266262426,
+        "suicide": 13.39188991695891,
+        "ptsd": 10.927706351205677,
+        "psychosis": 28.802514832015657,
+        "prevalence_percent": 19.071458352014826
+    },
+    {
+        "state": "New York",
+        "depression": 25.035399177239785,
+        "suicide": 10.596941013000007,
+        "ptsd": 8.308163077746913,
+        "psychosis": 28.438317913574235,
+        "prevalence_percent": 19.013670016440283
+    },
+    {
+        "state": "New Mexico",
+        "depression": 25.89942610085557,
+        "suicide": 12.666142691659298,
+        "ptsd": 11.53186125658533,
+        "psychosis": 29.16048522669324,
+        "prevalence_percent": 21.123805700521878
+    },
+    {
+        "state": "New Jersey",
+        "depression": 23.65349358431359,
+        "suicide": 9.593045527579736,
+        "ptsd": 7.154318543065652,
+        "psychosis": 27.17130330533833,
+        "prevalence_percent": 16.041146508522868
+    },
+    {
+        "state": "New Hampshire",
+        "depression": 29.157835322305672,
+        "suicide": 15.33486153987928,
+        "ptsd": 13.534995161959175,
+        "psychosis": 29.157835322305672,
+        "prevalence_percent": 21.847493730744432
+    },
+    {
+        "state": "Nevada",
+        "depression": 29.039523331968827,
+        "suicide": 14.249404657964988,
+        "ptsd": 10.655246786647924,
+        "psychosis": 33.61968911488614,
+        "prevalence_percent": 21.601009947638797
+    },
+    {
+        "state": "Nebraska",
+        "depression": 32.03149984824504,
+        "suicide": 16.448608030179887,
+        "ptsd": 13.494988012376687,
+        "psychosis": 35.596213662835105,
+        "prevalence_percent": 19.83061699650757
+    },
+    {
+        "state": "Montana",
+        "depression": 32.41957816514243,
+        "suicide": 17.02480641074519,
+        "ptsd": 14.579754426223271,
+        "psychosis": 34.41184274512325,
+        "prevalence_percent": 20.307656986162133
+    },
+    {
+        "state": "Missouri",
+        "depression": 30.608669938184427,
+        "suicide": 17.39571125194486,
+        "ptsd": 14.91524170716614,
+        "psychosis": 31.824586381703405,
+        "prevalence_percent": 22.060314407692616
+    },
+    {
+        "state": "Mississippi",
+        "depression": 29.220685669152008,
+        "suicide": 13.55948290911926,
+        "ptsd": 17.05104975821747,
+        "psychosis": 28.54271152369604,
+        "prevalence_percent": 19.409537046499747
+    },
+    {
+        "state": "Minnesota",
+        "depression": 29.94363448090984,
+        "suicide": 14.227168635751193,
+        "ptsd": 14.77032408859391,
+        "psychosis": 34.481610683692544,
+        "prevalence_percent": 20.101684564307487
+    },
+    {
+        "state": "Michigan",
+        "depression": 29.3011180888786,
+        "suicide": 15.172904952645116,
+        "ptsd": 13.431751925292398,
+        "psychosis": 31.629288422595945,
+        "prevalence_percent": 19.98447851352748
+    },
+    {
+        "state": "Massachusetts",
+        "depression": 25.69894325086335,
+        "suicide": 10.9381574616488,
+        "ptsd": 9.578046258956867,
+        "psychosis": 29.177964537749027,
+        "prevalence_percent": 20.70271461015462
+    },
+    {
+        "state": "Maryland",
+        "depression": 24.97920157064029,
+        "suicide": 11.711028268832656,
+        "ptsd": 8.937363678845974,
+        "psychosis": 29.94260136324804,
+        "prevalence_percent": 17.33581259621913
+    },
+    {
+        "state": "Maine",
+        "depression": 31.043973861848485,
+        "suicide": 18.874153122579244,
+        "ptsd": 16.177845533639353,
+        "psychosis": 35.270618190456965,
+        "prevalence_percent": 21.6
+    },
+    {
+        "state": "Louisiana",
+        "depression": 21.95046892905717,
+        "suicide": 11.872716691677224,
+        "ptsd": 9.601978526602348,
+        "psychosis": 23.48592045020304,
+        "prevalence_percent": 20.54268969771746
+    },
+    {
+        "state": "Kentucky",
+        "depression": 33.19736532225838,
+        "suicide": 17.98467820731566,
+        "ptsd": 17.452455917580057,
+        "psychosis": 34.66097661903129,
+        "prevalence_percent": 21.87076983796865
+    },
+    {
+        "state": "Kansas",
+        "depression": 32.50888882982312,
+        "suicide": 17.549347743562794,
+        "ptsd": 15.368457926887032,
+        "psychosis": 34.3490146126433,
+        "prevalence_percent": 20.161458393458393
+    },
+    {
+        "state": "Iowa",
+        "depression": 32.2572664190269,
+        "suicide": 16.441810553387498,
+        "ptsd": 16.097315475126045,
+        "psychosis": 35.63958173286662,
+        "prevalence_percent": 18.330900294255674
+    },
+    {
+        "state": "Indiana",
+        "depression": 35.38062455324248,
+        "suicide": 19.438773373729152,
+        "ptsd": 17.513996871870862,
+        "psychosis": 36.46790288253648,
+        "prevalence_percent": 21.74486172754215
+    },
+    {
+        "state": "Illinois",
+        "depression": 26.72144800259544,
+        "suicide": 12.011235634952822,
+        "ptsd": 10.393427944305431,
+        "psychosis": 29.562476142268903,
+        "prevalence_percent": 18.80856152189926
+    },
+    {
+        "state": "Idaho",
+        "depression": 38.45500317477352,
+        "suicide": 16.676109447884002,
+        "ptsd": 12.625445638776531,
+        "psychosis": 41.82178867844726,
+        "prevalence_percent": 21.94490421348708
+    },
+    {
+        "state": "Hawaii",
+        "depression": 35.864099342861486,
+        "suicide": 12.000946201769898,
+        "ptsd": 8.740573534237035,
+        "psychosis": 41.34430020956565,
+        "prevalence_percent": 17.1878009450368
+    },
+    {
+        "state": "Georgia",
+        "depression": 29.140059887591782,
+        "suicide": 14.796890912097764,
+        "ptsd": 12.093078555193792,
+        "psychosis": 32.334632706536546,
+        "prevalence_percent": 17.470522203407047
+    },
+    {
+        "state": "Florida",
+        "depression": 25.393542519928264,
+        "suicide": 13.084721783004076,
+        "ptsd": 9.604644901770008,
+        "psychosis": 27.76256583221953,
+        "prevalence_percent": 16.916320486218883
+    },
+    {
+        "state": "District of Columbia",
+        "depression": 27.759122453548244,
+        "suicide": 14.028803820610404,
+        "ptsd": 11.491679725393627,
+        "psychosis": 33.28109842549064,
+        "prevalence_percent": 22.15716642256995
+    },
+    {
+        "state": "Delaware",
+        "depression": 34.18432026023935,
+        "suicide": 16.84300327691093,
+        "ptsd": 15.946038605359464,
+        "psychosis": 40.26374747853264,
+        "prevalence_percent": 20.449463555448645
+    },
+    {
+        "state": "Connecticut",
+        "depression": 28.455759198823383,
+        "suicide": 13.25716656631343,
+        "ptsd": 10.566904731726812,
+        "psychosis": 31.95032611797713,
+        "prevalence_percent": 18.457439496512855
+    },
+    {
+        "state": "Colorado",
+        "depression": 37.5425687478934,
+        "suicide": 18.650845335800383,
+        "ptsd": 14.831207268874476,
+        "psychosis": 41.22456219979495,
+        "prevalence_percent": 22.46304016900183
+    },
+    {
+        "state": "California",
+        "depression": 27.843023759006485,
+        "suicide": 11.565367672162145,
+        "ptsd": 9.503582205705738,
+        "psychosis": 31.84681234714371,
+        "prevalence_percent": 19.10099189793799
+    },
+    {
+        "state": "Arkansas",
+        "depression": 34.03956057901623,
+        "suicide": 20.25849576207471,
+        "ptsd": 17.64769451378123,
+        "psychosis": 34.270897398485275,
+        "prevalence_percent": 19.949956653369515
+    },
+    {
+        "state": "Arizona",
+        "depression": 33.45099360720452,
+        "suicide": 15.997106227931829,
+        "ptsd": 12.904882085934696,
+        "psychosis": 37.161662577601085,
+        "prevalence_percent": 19.813094177247105
+    },
+    {
+        "state": "Alaska",
+        "depression": 50.22704535311114,
+        "suicide": 25.65946882169808,
+        "ptsd": 23.612170777413663,
+        "psychosis": 56.3689394859644,
+        "prevalence_percent": 21.13081694402421
+    },
+    {
+        "state": "Alabama",
+        "depression": 30.516617766663742,
+        "suicide": 17.42106007745824,
+        "ptsd": 12.063786477328712,
+        "psychosis": 32.480951420044576,
+        "prevalence_percent": 20.6748203873534
+    }
+]

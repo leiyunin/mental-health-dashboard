@@ -1,0 +1,53 @@
+,rank,state,percent,number
+0,1,Rhode Island,18.48,18204
+1,2,Vermont,20.33,9346
+2,3,Connecticut,20.59,52774
+3,4,Iowa,21.22,47967
+4,5,Massachusetts,21.68,122701
+5,6,North Dakota,22.25,12879
+6,7,Wisconsin,22.28,94587
+7,8,Hawaii,22.9,24832
+8,9,Kentucky,23.34,132541
+9,10,West Virginia,23.35,63123
+10,11,Washington,23.45,129850
+11,12,Montana,23.68,24375
+12,13,Pennsylvania,23.77,269121
+13,14,Maryland,23.87,102734
+14,15,Nevada,24.31,72956
+15,16,New York,24.53,351676
+16,17,District of Columbia,24.59,13849
+17,18,New Jersey,25.19,129808
+18,19,California,25.54,798630
+19,20,South Dakota,26.14,17659
+20,21,New Mexico,26.15,54176
+21,22,Minnesota,26.19,102491
+22,23,Ohio,26.99,290259
+23,24,Maine,27.34,39967
+24,25,Michigan,27.5,281553
+25,26,Delaware,27.59,21424
+26,27,Louisiana,27.79,155929
+27,28,Idaho,28.05,43386
+28,29,Colorado,28.69,111500
+29,30,Nebraska,29.48,37445
+30,31,Alaska,29.49,17492
+31,32,Tennessee,29.93,224845
+32,33,New Hampshire,30.4,35528
+33,34,Arkansas,30.53,117147
+34,35,Indiana,30.53,191026
+35,36,Oregon,30.67,118469
+36,37,Virginia,30.71,198169
+37,38,Missouri,30.88,192461
+38,39,Arizona,31.35,203838
+39,40,Oklahoma,31.52,138679
+40,41,South Carolina,31.7,161528
+41,42,Illinois,32.25,306123
+42,43,North Carolina,32.94,356776
+43,44,Wyoming,32.94,14280
+44,45,Utah,33.31,81119
+45,46,Mississippi,33.37,121330
+46,47,Florida,34.9,733738
+47,48,Alabama,38.35,233440
+48,49,Kansas,38.74,97643
+49,50,Georgia,39.18,370081
+50,51,Texas,40.65,954935
+51,,National,29.67,8496389

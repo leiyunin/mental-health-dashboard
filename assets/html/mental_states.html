@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html style="height:100%">
+
+<head>
+    <script type="text/javascript" src="../js/d3.js"></script>
+    <script src="../js/mental_states_js/mental_states_index.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+
+    <!-- import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@1&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter','Roboto','Clash Display', "Helvetica", "Arial", sans-serif;
+            font-size: 16px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height:100%; width:90%;" class="text-center">
+        <div style="height:100%;" class="row">
+            <div style="height:100%;" class="col-7">
+                <div style="height:90%; width:90%; padding-left:0px;" id="networkChart"></div>
+                <script src="../js/mental_states_js/networkChart.js"></script>
+                <div>
+                    <button type="button" class="btn btn-outline-primary" id="help" style="width:120px; margin-right: 20px;" onclick="info_mode()">help</button>
+                    <button type="button" class="btn btn-outline-primary active" id="state" style="width:120px; margin-right: 20px;" onclick="state_mode()">state</button>
+                    <button type="button" class="btn btn-outline-primary" id="cluster" style="width:120px; margin-right: 20px;" onclick="cluster_mode()">cluster</button>
+                    <!-- <button type="button" class="btn btn-outline-primary" id="insight" style="width:120px" onclick="insight_mode()" hidden>insight</button> -->
+                </div>
+            </div>
+            <div style="height:100%;" class="col-5">
+                <div style="height:100%;" class="col">
+                    <div style="height:50%;" class="row">
+                        <div style="height:100%; width: 95%;margin-left: 20px;" class="radarChart" id = "radarChart"></div>
+                        <script src="../js/mental_states_js/radarChart.js"></script>	
+
+                    </div>
+                    <div style="height:50%;" class="row">
+                        <div class="barChart" id = "barChart">
+                        </div>
+                        <script src="../js/mental_states_js/barChart.js"></script>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

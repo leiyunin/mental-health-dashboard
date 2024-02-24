@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html style="height:100%">
+
+<head>
+    <title>Mental Health Resources Map</title>
+    <script type="text/javascript" src="../js/d3.min.js"></script>
+    <script src="../js/topojson-client.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style_re.css">
+    <!-- import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@1&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div style="height:95%; width:90%;" class="text-center">
+        <div style="height:100%;" class="row">
+            <div style="height:100%;" class="col-7">
+                <div style="height:90%; width:90%; padding-left:20px;" id="map"></div>
+                <div>
+                    <button type="button" class="btn btn-outline-primary" id="re-help" style="width:120px; margin-right: 20px;" onclick="info_re()">help</button>
+                    <script src="../js/mental_resource_js/resource_help.js"></script>
+                    <!-- please change function name: info_mode(), button id: help and js name: help.js-->
+                
+                <script src="../js/mental_resource_js/map3.js"></script>
+                <button type="button" class="btn btn-outline-primary" id="resetButton" style="width:120px; margin-right: 20px;">Reset Map</button>
+                <select id="state-selector" class="state-selector">
+                    <option value="">Select a State</option>
+                    <!-- Options populated by D3 -->
+                </select>
+            </div>
+            </div>
+            <div style="height:100%;" class="col-5">
+                <div style="height:100%;" class="col">
+                    <div style="height:5%; margin-top: 20px; text-align: center; font-size: 1.3em; font-weight: 600;">
+                        Compare two regions
+                    </div>
+                    <div style="height:10%; margin-bottom: 20px;" class="row">
+                        <!-- State Selection Row -->
+                        <div class="state-selector-row" id="forbar">
+                            <select id="state-selector-1" class="state-selector">
+                                <option value="">Select a State</option>
+                                <!-- Options populated by D3 -->
+                            </select>
+                            <select id="state-selector-2" class="state-selector">
+                                <option value="">Select a State</option>
+                                <!-- Options populated by D3 -->
+                            </select>
+                        </div>
+
+                        <!-- County Selection Row -->
+                        <div class="county-selector-row">
+                            <select id="county-selector-1" class="county-selector" disabled>
+                                <option value="">Select a County</option>
+                                <!-- Options populated by D3 -->
+                            </select>
+                            <select id="county-selector-2" class="county-selector" disabled>
+                                <option value="">Select a County</option>
+                                <!-- Options populated by D3 -->
+                            </select>
+                        </div>
+
+
+                        
+                    </div>
+
+
+
+                
+                <div style="height:80%;" class="row">
+                    <div style="height:90%; width:90%; padding-left:20px; font-family: 'Inter';" id="bar-chart">
+                        <script src="../js/mental_resource_js/bar-chart.js"></script>
+                        <div id="tooltip" style="position: absolute; opacity: 0; pointer-events: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

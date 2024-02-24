@@ -1,0 +1,233 @@
+body {
+  font-size: 16px;
+  background: rgba(249,249,249,1);
+  font-family: 'Inter','Roboto','Clash Display', "Helvetica", "Arial",
+  sans-serif;
+  /* grid mode */
+  display: grid;
+  grid-template-columns: 18vw 77vw;
+  grid-template-rows: 95vh;
+  column-gap: 1.2vw;
+  padding-left: 1.2vw;
+  /* padding-right: 1.2vw; */
+  padding-top: 2vh;
+  /* padding-bottom: 2vh; */
+}
+
+
+
+.side_bar {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 250px; /* side_bar的最低宽度 */
+  background: rgba(255,255,255,1);
+  outline: 3px solid rgba(239,240,246,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* grid mode */
+  display: grid;
+  grid-template-rows: 80px 300px;
+  row-gap: 60px;
+}
+
+  .side_bar .logo_box {
+      grid-column: 1;
+      grid-row: 1;
+      display: grid;       /* grid mode */
+      place-items: center; /* 居中内容 */
+  }
+
+  .side_bar .logo_box .logo {
+      grid-column: 1;
+      grid-row: 1;
+      display: flex;
+      column-gap: 10px; /* icon与text的间隔 */
+      align-items: center; /* 垂直居中 */
+      font-family: 'Clash Display';
+      font-weight: 500;
+      font-size: 1.6em;
+      
+  }
+
+
+  .side_bar .nav_box {
+      grid-column: 1;
+      grid-row: 2;
+      display: grid;       /* grid mode */
+      place-items: center; /* 居中内容 */
+  }
+
+.side_bar .nav_box .nav_item {
+  grid-column: 1;
+  display: flex;
+  width: 210px; /* nav_item的宽度保持一致 */
+  height: 40px;
+  column-gap: 10px;  /* icon与text的间隔 */
+  padding-left: 10px; /* 元素边距 */
+  padding-right: 10px;
+  align-items: center;
+  font-size: 1.2em;
+  color: #202020
+  /* outline: 2px solid rgb(0, 0, 0); */
+}
+
+
+.highlighted {
+  background: rgba(27,89,248,0.1);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  outline: 2px solid rgba(27,89,248,0.1);
+  box-shadow: 0px 3px 15px rgba(27,89,248, 0.2);
+  font-weight: 700;
+  color: rgba(27,89,248,1) !important;
+  /* outline: 2px solid rgb(0, 0, 0); */
+}
+
+.highlighted > embed {
+  filter: hue-rotate(330deg) brightness(80%) contrast(100%) saturate(1100%);
+}
+
+
+.canvas {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  row-gap: 2vh;
+  grid-template-rows: 100%;
+  min-width: 1160px;
+  /* outline: 2px solid rgb(0, 0, 0); */
+}
+
+
+
+.chart_box {
+  grid-column: 1;
+  grid-row: 1;
+  background: rgba(255,255,255,1);
+  outline: 3px solid rgba(239,240,246,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+  /* outline: 2px solid rgb(0, 0, 0); */
+  display: grid;
+  place-items: center; /* 居中内容 */
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+/* nav bar interaction design */
+.nav_item:hover {
+  background: rgba(27,89,248,0.1);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  outline: 2px solid rgba(27,89,248,0.1);
+  box-shadow: 0px 3px 15px rgba(27,89,248, 0.2);
+  font-weight: 700;
+  color: rgba(27,89,248,1) !important;
+  /* outline: 2px solid rgb(0, 0, 0); */
+  cursor: pointer;
+}
+
+.nav_item:hover > embed {
+  filter: hue-rotate(330deg) brightness(80%) contrast(100%) saturate(1100%);
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 1350px) {
+  body{
+    /* grid mode */
+  grid-template-columns: 95vw;
+  grid-template-rows: 8% 90%;
+  row-gap: 2vh;
+  column-gap: 0vh;
+  padding-left: 1.2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  }
+
+  .side_bar {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 1160px;
+  max-height: 80px;
+  /* grid mode */
+  display: grid;
+  place-items: center;
+  grid-template-rows: 100%;
+  grid-template-columns: 250px calc(100% - 250px - 180px);
+  row-gap: 0;
+  column-gap: 180px;
+  }
+
+  .side_bar .logo_box {
+    grid-column: 1;
+    grid-row: 1;
+    height: 40px;
+    display: grid;       /* grid mode */
+    place-items: center;
+}
+
+.side_bar .logo_box .logo {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    column-gap: 10px; /* icon与text的间隔 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+.side_bar .nav_box {
+    grid-column: 2;
+    grid-row: 1;
+    height: 40px;
+    /* max-width: calc(100% - 250px); */
+    display: grid;       /* grid mode */
+    place-items: center; /* 居中内容 */
+    /* column-gap: 50px; */
+    padding-right: 15px;
+}
+
+.side_bar .nav_box .nav_item {
+  grid-row: 1;
+  grid-column: initial;
+  width: 120px; /* nav_item的宽度保持一致 */
+  height: 40px;
+  column-gap: 10px;  /* icon与text的间隔 */
+  padding-left: 5px; /* 元素边距 */
+  padding-right: 5px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #202020;
+  /* outline: 2px solid rgb(0, 0, 0); */
+}
+
+.side_bar_text {
+  display: none;
+}
+
+
+  .canvas {
+    grid-column: 1;
+    grid-row: 2;
+    width: 95vw;
+    min-height: 800px;
+    margin-bottom: 2vh;
+  }
+
+  
+}

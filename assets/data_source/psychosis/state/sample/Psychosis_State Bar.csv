@@ -1,0 +1,52 @@
+,Age Chart-value,Age Chart-alias,State-value,State-alias,SUM(Possible Risk for Psychosis)-alias,SUM(Total Psychosis Responses)-alias,ATTR(Percentage Suffix Label %)-alias,ATTR(State Population)-alias,AGG(Show # or Percent)-value,AGG(Show # or Percent)-alias,AGG(Formatted Show # or Percent Positive Age)-alias
+0,True,True,Alaska,Alaska,1416,1886,%null%,732673,193.2649353804494,193.3,193.3
+1,True,True,West Virginia,West Virginia,2304,2783,%null%,1782959,129.22338651645944,129.2,129.2
+2,True,True,Maine,Maine,1763,2204,%null%,1372247,128.4754129540819,128.5,128.5
+3,True,True,Arkansas,Arkansas,3831,4771,%null%,3025891,126.60733648370017,126.6,126.6
+4,True,True,Oklahoma,Oklahoma,5035,6217,%null%,3986639,126.29686309695961,126.3,126.3
+5,True,True,Indiana,Indiana,8236,10262,%null%,6805985,121.01113946034262,121.0,121.0
+6,True,True,Alabama,Alabama,5951,7585,%null%,5039877,118.0782784976697,118.1,118.1
+7,True,True,Kentucky,Kentucky,5323,6720,%null%,4509394,118.04246867760945,118.0,118.0
+8,True,True,Oregon,Oregon,4856,6042,%null%,4246155,114.36228776387108,114.4,114.4
+9,True,True,Colorado,Colorado,6573,8426,%null%,5812069,113.09225681938739,113.1,113.1
+10,True,True,Utah,Utah,3708,4629,%null%,3337975,111.08531370067182,111.1,111.1
+11,True,True,Montana,Montana,1199,1486,%null%,1104271,108.57841960895469,108.6,108.6
+12,True,True,Wyoming,Wyoming,625,767,%null%,578803,107.98147210708997,108.0,108.0
+13,True,True,Tennessee,Tennessee,7480,9217,%null%,6975218,107.23679173898222,107.2,107.2
+14,True,True,Kansas,Kansas,3136,3915,%null%,2934582,106.8636010171125,106.9,106.9
+15,True,True,Idaho,Idaho,2030,2529,%null%,1900923,106.79022769465149,106.8,106.8
+16,True,True,Arizona,Arizona,7697,9704,%null%,7276316,105.78155209311966,105.8,105.8
+17,True,True,Delaware,Delaware,1055,1432,%null%,1003384,105.14419205408896,105.1,105.1
+18,True,True,Missouri,Missouri,6447,8033,%null%,6168187,104.52017748489143,104.5,104.5
+19,True,True,Ohio,Ohio,12156,15157,%null%,11780017,103.19170167581252,103.2,103.2
+20,True,True,Iowa,Iowa,3288,4106,%null%,3193079,102.97271066578685,103.0,103.0
+21,True,True,Vermont,Vermont,651,814,%null%,645570,100.84111715228403,100.8,100.8
+22,True,True,Washington,Washington,7768,9862,%null%,7738692,100.37872033154956,100.4,100.4
+23,True,True,South Dakota,South Dakota,875,1094,%null%,895376,97.72430800021442,97.7,97.7
+24,True,True,New Hampshire,New Hampshire,1352,1679,%null%,1388992,97.33677371791919,97.3,97.3
+25,True,True,Michigan,Michigan,9601,12102,%null%,10050811,95.5246298035054,95.5,95.5
+26,True,True,Nebraska,Nebraska,1834,2354,%null%,1963692,93.39550194225978,93.4,93.4
+27,True,True,North Dakota,North Dakota,723,918,%null%,774948,93.29658248037288,93.3,93.3
+28,True,True,Wisconsin,Wisconsin,5423,6860,%null%,5895908,91.97904716287975,92.0,92.0
+29,True,True,South Carolina,South Carolina,4758,5921,%null%,5190705,91.66384913032044,91.7,91.7
+30,True,True,Nevada,Nevada,2879,3651,%null%,3143991,91.57150895152054,91.6,91.6
+31,True,True,Georgia,Georgia,9854,12350,%null%,10799566,91.24440741414979,91.2,91.2
+32,True,True,Mississippi,Mississippi,2683,3403,%null%,2949965,90.95023161291745,91.0,91.0
+33,True,True,Virginia,Virginia,7810,9954,%null%,8642274,90.36973370666101,90.4,90.4
+34,True,True,Pennsylvania,Pennsylvania,11314,14480,%null%,12964056,87.27206979050383,87.3,87.3
+35,True,True,Texas,Texas,25296,31446,%null%,29527941,85.66801186713289,85.7,85.7
+36,True,True,Minnesota,Minnesota,4889,6205,%null%,5707390,85.66087125638865,85.7,85.7
+37,True,True,North Carolina,North Carolina,8931,11230,%null%,10551162,84.64470548362351,84.6,84.6
+38,True,True,Connecticut,Connecticut,2999,3975,%null%,3605597,83.17623960747693,83.2,83.2
+39,True,True,New Mexico,New Mexico,1751,2238,%null%,2115877,82.75528303393817,82.8,82.8
+40,True,True,Florida,Florida,17511,22227,%null%,21781128,80.39528531304714,80.4,80.4
+41,True,True,Louisiana,Louisiana,3667,4547,%null%,4624047,79.30282715551984,79.3,79.3
+42,True,True,Illinois,Illinois,10024,12931,%null%,12671469,79.10685020024118,79.1,79.1
+43,True,True,California,California,29687,39188,%null%,39237836,75.65911636921058,75.7,75.7
+44,True,True,Maryland,Maryland,4573,5879,%null%,6165129,74.17525245619353,74.2,74.2
+45,True,True,Massachusetts,Massachusetts,5113,6676,%null%,6984723,73.20261662488262,73.2,73.2
+46,True,True,District of Columbia,District of Columbia,483,692,%null%,670050,72.08417282292366,72.1,72.1
+47,True,True,Rhode Island,Rhode Island,771,1000,%null%,1095610,70.37175637316199,70.4,70.4
+48,True,True,New York,New York,13751,18354,%null%,19835913,69.32375636049623,69.3,69.3
+49,True,True,Hawaii,Hawaii,987,1298,%null%,1441553,68.46782601819011,68.5,68.5
+50,True,True,New Jersey,New Jersey,5799,7697,%null%,9267130,62.576007890252974,62.6,62.6
