@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mental Health Tracker</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- import js -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <script src="./assets/js/d3.v7.js"></script>
+    <script src="./assets/js/d3-format.v2.min.js"></script>
+
+    <!-- import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@1&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link href="./assets/css/main.css" rel="stylesheet" />
+  </head>
+
+<body>
+
+    <div class="side_bar">
+        <div class="logo_box">
+            <div class="logo">
+                <img src="./assets/img/logo.png" height="32px" alt="logo" />
+               <span class="text"> Mental Cares</span>
+            </div>
+        </div>
+    
+        <div class="nav_box">
+            <div class="nav_item highlighted" chart="homepage">
+                <embed src="./assets/img/chart.svg" height="25px" type="image/svg+xml"/>
+                <span class="side_bar_text">Overview</span>
+            </div>
+            <div class="nav_item" chart="part1">
+                <embed src="./assets/img/map.svg" height="25px" type="image/svg+xml"/>
+                <span class="side_bar_text">Explore States</span>
+            </div>
+            <div class="nav_item" chart="part2">
+                <embed src="./assets/img/hospital.svg" height="25px" type="image/svg+xml"/>
+                <span class="side_bar_text">Health Resources</span>
+            </div>
+            <div class="nav_item" chart="part3">
+                <embed src="./assets/img/timeline.svg" height="25px" type="image/svg+xml"/>
+                <span class="side_bar_text">Timeline</span>
+            </div>
+            <div class="nav_item" chart="about">
+              <embed src="./assets/img/about.svg" height="25px" type="image/svg+xml"/>
+              <span class="side_bar_text">About</span>
+          </div>
+        </div>
+    </div>
+    <div class="canvas">
+        <div class="chart_box">
+            <iframe src="./assets/html/home.html" frameborder="0" width="100% " height="100%"></iframe>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+          $(".nav_item").on("click", function () {
+            // 移除其他元素的 highlighted 类，只在当前元素上添加
+            $(".nav_item").removeClass("highlighted");
+            $(this).addClass("highlighted");
+        
+            // 获取点击的 side bar item 对应的图表类型
+            var chartType = $(this).attr("chart");
+        
+            // 更新 iframe 的 src 属性
+            if (chartType === "homepage") {
+              $(".canvas .chart_box iframe").attr("src", "./assets/html/home.html");
+            } else if (chartType === "part1") {
+              $(".canvas .chart_box iframe").attr("src", "./assets/html/mental_states.html");
+            } else if (chartType === "part2") {
+              $(".canvas .chart_box iframe").attr("src", "./assets/html/mental_resource.html");
+            } else if (chartType === "part3") {
+              $(".canvas .chart_box iframe").attr("src", "./assets/html/mental_trend.html");
+            } else if (chartType === "about") {
+              $(".canvas .chart_box iframe").attr("src", "./assets/html/about.html");
+            }
+          });
+        });
+
+    </script>
+</body>
+
+</html>
