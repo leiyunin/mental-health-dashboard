@@ -69,8 +69,8 @@ To access our deployed dshabord, users can access this link: [Mental Cares](http
     2. Address mental health resource inequality among states using polar bar chart
     3. Assess risks among different demographic groups using donut chart
     4. Explore the temporal trends in public interest using heat map
-    ![](./homepage.png)
-    ![](./homepage2.png)
+    ![](./image/homepage.png)
+    ![](./image/homepage2.png)
 
    
 - Explore States
@@ -82,8 +82,8 @@ To access our deployed dshabord, users can access this link: [Mental Cares](http
     4. Navigate and gain insights into mental health clustering effects across states with the proportional symbol map. Use multi-selection for further comparative analysis.
     5. Compare mental health risk patterns across clusters using a radar chart.
     6. Extract insights from the correlation between prevalence and macro-level factors across clusters.
-    ![](./part1.png)
-    ![](./part1-2.png)
+    ![](./image/part1.png)
+    ![](./image/part1-2.png)
 
 
 - Health Resources
@@ -92,7 +92,7 @@ To access our deployed dshabord, users can access this link: [Mental Cares](http
     1. Evaluate mental health resources and population density, identifying inequalities through a dual-layered map with a proportional symbol map overlaid on a choropleth map.
     2. Zoom into specific states using the selector to display resources and population data for the counties within that state.
     3. Conduct a comparative analysis of resource density between two states or counties using a bar chart.
-    ![](./part2.png)
+    ![](./image/part2.png)
 
 - Public Interest Timeline
     Users can use `Timeline` page to explore the search interest timeline of the U.S. public in mental health-related keywords. They can
@@ -100,7 +100,7 @@ To access our deployed dshabord, users can access this link: [Mental Cares](http
     2. Compare temporal patterns across various mental health keywords within the specified time range using line chart
     3. Obtain important policies, advocacies, and actions on mental health using the timeline
     3. Compare average search interest of different mental health-related keyworkds before, during and after the pandemic using bar graphs
-    ![](./part3.png)
+    ![](./image/part3.png)
 
 ### Wireframe Design
 See our wireframe design in [Figma](https://www.figma.com/file/ZA3XXiydpOgftdh5IVLaTT/Mental-Health-Tracker).
